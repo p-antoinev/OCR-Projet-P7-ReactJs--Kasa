@@ -9,10 +9,11 @@ function CharterList() {
     return(
         <div className='card--list'>
             {charterList.map((item) => (
-                <CollapseCard key={item.index} title={item.title} text={item.content}/>
+                <CollapseCard key={item.id} title={item.title} text={item.content}/>
             ))}
         </div>
     )
+    
 }
 
 // export to |-src|-pages|-About

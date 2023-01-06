@@ -1,6 +1,5 @@
 * {
-  font-family: montserrat;
-  color: #ff6060;
+  font-family: 'montserrat';
   box-sizing: border-box;
 }
 
@@ -18,4 +17,9 @@ h1 {
 header,
 main {
   margin: 0 4%;
+}
+
+p,
+a {
+  color: #ff6060;
 }
