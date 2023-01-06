@@ -1,16 +1,16 @@
-section {
+.banner {
   position: relative;
+  height: 180px;
 }
 
-section > img {
+.banner--img {
   width: 100%;
-  height: 150px;
+  height: 100%;
   border-radius: 25px;
-  margin-top: 25px;
   filter: brightness(60%);
 }
 
-section > h1 {
+.banner--text {
   position: absolute;
   top: 55%;
   left: 50%;

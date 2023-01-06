@@ -1,0 +1,25 @@
+.collapse--card {
+  width: 85%;
+  margin: 20px auto;
+}
+
+.collapse--card--title {
+  background: #ff6060;
+  border-radius: 5px;
+  color: #f6f6f6;
+  font-size: 1.5em;
+  font-weight: 400;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.collapse--card--text {
+  background: #f6f6f6;
+  margin: 0;
+  padding: 2%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: lighter;
+}

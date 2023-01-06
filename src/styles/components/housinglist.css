@@ -1,0 +1,10 @@
+.card--background {
+  width: 100%;
+  background: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3%;
+  border-radius: 25px;
+  margin-top: 3%;
+}
