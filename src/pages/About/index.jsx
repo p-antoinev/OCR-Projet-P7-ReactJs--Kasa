@@ -1,8 +1,9 @@
+import Banner from '../../components/Banner'
+import aboutBanner from '../../assets/img/about_banner.png'
+
 function About() {
     return (
-        <div>
-            <h1>À Propos</h1>
-        </div>
+        <Banner src={aboutBanner} alt='paysage' text='' />
     )
 }
 

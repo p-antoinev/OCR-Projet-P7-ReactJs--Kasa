@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+img {
+  width: 15%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  margin-right: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
