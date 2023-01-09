@@ -1,7 +1,11 @@
-import { Link } from 'react-router-dom'
-import '../../styles/components/header.css'
-import logoHeader from '../../assets/img/LOGO.png'
+//Style
+import './header.css'
 import '../../styles/globalStyle.css'
+//React tools
+import { Link } from 'react-router-dom'
+//Component
+import logoHeader from '../../assets/img/LOGO.png'
+
 
 function Header() {
     return (
@@ -15,4 +19,5 @@ function Header() {
     )
 }
 
+// Export to |-src |-index.jsx
 export default Header

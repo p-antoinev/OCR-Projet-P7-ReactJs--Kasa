@@ -1,4 +1,4 @@
-import '../../styles/components/banner.css'
+import './banner.css'
 
 function Banner(props) {
     return(

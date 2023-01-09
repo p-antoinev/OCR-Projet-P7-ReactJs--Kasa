@@ -1,5 +1,5 @@
 //Style
-import '../../styles/components/error.css'
+import './error.css'
 //React Tools
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'

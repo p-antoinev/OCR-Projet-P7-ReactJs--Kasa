@@ -6,7 +6,7 @@ import prevSlideImg from '../../assets/img/Vector_prev.svg'
 import { useState } from 'react'
 
 
-function HouseCarousel( { img } ) {
+function HousingCarousel( { img } ) {
     
     const numberPicture = img.length
     const firstPicture = img[0]
@@ -38,4 +38,4 @@ function HouseCarousel( { img } ) {
 }
 
 // Export to |-src|-pages|-Housing
-export default HouseCarousel
+export default HousingCarousel

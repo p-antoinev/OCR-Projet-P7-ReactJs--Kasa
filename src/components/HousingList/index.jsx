@@ -1,7 +1,7 @@
-//Données
+//Data
 import Data from '../../data/Logement.json'
 //Style
-import '../../styles/components/housinglist.css'
+import './housinglist.css'
 //React Tools
 import { Link } from 'react-router-dom'
 //Composants

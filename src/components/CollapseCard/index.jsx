@@ -1,5 +1,5 @@
 //Style
-import '../../styles/components/collapseCard.css'
+import './collapseCard.css'
 //Icon
 import { FaAngleUp } from "react-icons/fa";
 //Module

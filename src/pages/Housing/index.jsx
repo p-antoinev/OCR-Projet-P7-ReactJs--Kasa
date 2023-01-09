@@ -3,8 +3,8 @@ import React from 'react'
 //Data
 import data from '../../data/Logement.json'
 //Composant
-import HouseCarousel from '../../components/HouseCarousel'
-//import HouseDetails from '../../components/HouseDetails'
+import HousingCarousel from '../../components/HousingCarousel'
+//import HousingDetails from '../../components/HouseDetails'
 //React Tools
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
@@ -28,7 +28,7 @@ function Housing() {
 
     return(
         <main>
-            <HouseCarousel img={logement.pictures} />
+            <HousingCarousel img={logement.pictures} />
         </main>
     )
 }

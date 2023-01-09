@@ -1,7 +1,7 @@
 //Data
 import { charterList } from '../../data/charter.js'
 //Style
-import '../../styles/components/charterList.css'
+import './charterList.css'
 //Composant
 import CollapseCard from '../CollapseCard'
 
