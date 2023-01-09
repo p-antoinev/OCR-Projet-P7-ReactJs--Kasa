@@ -1,13 +1,15 @@
-import React from 'react'
-//style
 //Data
 import data from '../../data/Logement.json'
-//Composant
-import HousingCarousel from '../../components/HousingCarousel'
-//import HousingDetails from '../../components/HouseDetails'
+//style
+
 //React Tools
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+//Composant
+import HousingCarousel from '../../components/HousingCarousel'
+import HousingTitle from '../../components/HousingTitle'
+
+
 
 function Housing() {
     useEffect(() => {
@@ -29,6 +31,11 @@ function Housing() {
     return(
         <main>
             <HousingCarousel img={logement.pictures} />
+            <section>
+                <div>
+                   <HousingTitle title={logement.title}/> 
+                </div>
+            </section>
         </main>
     )
 }
