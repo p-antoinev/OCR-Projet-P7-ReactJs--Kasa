@@ -8,3 +8,9 @@
   border-radius: 25px;
   margin-top: 3%;
 }
+
+.card--link {
+  width: 30%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}

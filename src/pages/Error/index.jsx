@@ -1,9 +1,13 @@
-//style
+//Style
 import '../../styles/components/error.css'
-//Composant
+//React Tools
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Error() {
+    useEffect(() => {
+        document.title = 'Page non trouvé'
+    })
     return (
         <main className='error--main'>
             <p className='error--404'>404</p>
@@ -14,4 +18,5 @@ function Error() {
     )
 }
 
+// Export to |-src|-index.jsx
 export default Error

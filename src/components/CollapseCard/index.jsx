@@ -3,7 +3,6 @@ import '../../styles/components/collapseCard.css'
 //Icon
 import { FaAngleUp } from "react-icons/fa";
 //Module
-
 import {useState} from 'react'
 
 
