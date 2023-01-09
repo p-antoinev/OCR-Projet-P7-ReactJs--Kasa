@@ -10,7 +10,7 @@ function CollapseCard({ title, text }) {
     const [isOpen, setIsOpen] = useState(false)
 
     return isOpen ? (
-        <div className='collapse--card'>
+        <div className='collapse--card' >
                 <h1 className='collapse--card--title'>
                     {title}
                     <button onClick={() => setIsOpen(false)} className='button button--open'>
@@ -21,7 +21,7 @@ function CollapseCard({ title, text }) {
         </div>
         
     ) : (   
-        <div className='collapse--card'>
+        <div className='collapse--card' >
                 <h1 className='collapse--card--title'>
                     {title}
                     <button onClick={() => setIsOpen(true)} className='button button--close'>

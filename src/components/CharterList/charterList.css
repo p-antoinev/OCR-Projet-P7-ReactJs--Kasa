@@ -1,7 +1,12 @@
-.card--list {
+.card-list {
   display: flex;
   flex-direction: column;
   width: 90%;
   justify-content: center;
   margin: auto;
+}
+
+.card-list--container {
+  width: 85%;
+  margin: 20px auto;
 }

@@ -10,6 +10,10 @@ import HousingCarousel from '../../components/HousingCarousel'
 import HousingTitle from '../../components/HousingTitle'
 import HousingLocation from '../../components/HousingLocation'
 import HousingTags from '../../components/HousingTags'
+import ProfilName from '../../components/ProfilName'
+import ProfilPicture from '../../components/ProfilPicture'
+import Rating from '../../components/Rating'
+import CollapseCard from '../../components/CollapseCard'
 
 
 
@@ -32,12 +36,33 @@ function Housing() {
     return(
         <main>
             <HousingCarousel img={logement.pictures} />
-            <section>
-                <div className='housing-details'>
+            <section className='housing-details'>
+                <div className='housing-details--info'>
                    <HousingTitle title={logement.title}/>
                    <HousingLocation location={logement.location}/>
                    <HousingTags />
-                </div> 
+                </div>
+                <div className='housing-details--profil'>
+                    <div className='housing-profil'>
+                        <ProfilName name={logement.host.name} />
+                        <ProfilPicture src={logement.host.picture} alt={logement.host.name}  />
+                    </div>
+                    <Rating rating={logement.rating} />
+                </div>
+            </section>
+            <section className='housing-collapse'>
+                <div className='housing-collapse--container'>
+                    <CollapseCard title={"Description"} text={logement.description}/>
+                </div>
+                <div className='housing-collapse--container'>
+                    <CollapseCard title={"Équipements"} text={
+                        <ul>{logement.equipments.map((item) =>
+                                <li key={item}>{item}</li>
+                            )}
+                        </ul>
+                    } />
+                </div>
+                
             </section>
         </main>
     )

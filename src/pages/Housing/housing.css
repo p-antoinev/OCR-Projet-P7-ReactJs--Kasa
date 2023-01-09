@@ -1,2 +1,43 @@
-.housing.details {
+/* Section Carousel */
+
+/* Section Details */
+.housing-details {
+  width: 100%;
+  height: 150px;
+  margin: 2% 0;
+
+  display: flex;
+}
+
+.housing-details--info {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.housing-profil {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.housing-details--profil {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Section Collapse */
+.housing-collapse {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.housing-collapse--container {
+  width: 45%;
 }

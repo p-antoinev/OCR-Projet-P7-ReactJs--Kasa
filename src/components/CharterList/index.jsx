@@ -7,11 +7,13 @@ import CollapseCard from '../CollapseCard'
 
 function CharterList() {
     return(
-        <div className='card--list'>
-            {charterList.map((item) => (
-                <CollapseCard key={item.id} title={item.title} text={item.content}/>
-            ))}
-        </div>
+            <div className='card-list'>
+                {charterList.map((item) => (
+                    <div className='card-list--container'>
+                        <CollapseCard key={item.id} title={item.title} text={item.content}/>
+                    </div>
+                ))}
+            </div>
     )
     
 }
