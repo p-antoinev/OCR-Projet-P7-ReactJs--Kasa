@@ -1,6 +1,6 @@
 //Style & Img
 import './home.css'
-import mainBanner from '../../assets/img/IMG.svg'
+import mainBanner from '../../assets/img/IMG-grd.svg'
 //Composant
 import Banner from '../../components/Banner'
 import HousingList from '../../components/HousingList'

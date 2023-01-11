@@ -28,6 +28,5 @@
 @media only screen and (max-width: 600px) {
   .card--title {
     bottom: 5%;
-    font-size: 20px;
   }
 }

@@ -1,6 +1,7 @@
 .profil-picture {
   width: 64px;
   height: 64px;
+  margin-left: 10px;
   border-radius: 50%;
   background: #c4c4c4;
 }

@@ -52,12 +52,12 @@ function Housing() {
             </section>
             <section className='housing-collapse'>
                 <div className='housing-collapse--container'>
-                    <CollapseCard title={"Description"} text={logement.description}/>
+                    <CollapseCard className={'Housing-card--text'}  title={"Description"} text={logement.description}/>
                 </div>
                 <div className='housing-collapse--container'>
-                    <CollapseCard title={"Équipements"} text={
+                    <CollapseCard className={'Housing-card--text'} title={"Équipements"} text={
                         <div>{logement.equipments.map((item) =>
-                                <p key={item}>{item}</p>
+                                <p className='card-li' key={item}>{item}</p>
                             )}
                         </div>
                     } />

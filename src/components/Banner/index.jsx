@@ -1,10 +1,10 @@
 import './banner.css'
 
-function Banner(props) {
+function Banner({ src, alt, text }) {
     return(
         <div className='banner-container' >
-            <img src={props.src} alt={props.alt} className='banner--img'/>
-            <h1 className='banner--text'>{props.text}</h1>
+            <img src={src} alt={alt} className='banner--img' />
+            <h1 className='banner--text'>{text}</h1>
         </div>
     )
 }

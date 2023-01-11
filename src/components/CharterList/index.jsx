@@ -10,7 +10,7 @@ function CharterList() {
         <div className='card-list'>
             {charterList.map((item) => (
                 <div key={item.id} className='card-list--container'>
-                    <CollapseCard  title={item.title} text={item.content} />
+                    <CollapseCard className={'about-card--text'} title={item.title} text={item.content} />
                 </div>
             ))}
         </div>

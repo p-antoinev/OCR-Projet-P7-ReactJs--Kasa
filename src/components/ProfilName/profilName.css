@@ -1,14 +1,11 @@
 .profil-name {
-  width: 100%;
+  width: 50%;
   height: 100%;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  margin-right: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: end;
 
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  flex-wrap: wrap;
-  text-align: right;
 }

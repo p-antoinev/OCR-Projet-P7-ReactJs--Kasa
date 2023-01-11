@@ -3,31 +3,26 @@
 /* Section Details */
 .housing-details {
   width: 100%;
-  height: 130px;
-  margin-top: 2%;
+  margin: 2% 0;
 
   display: flex;
   justify-content: space-between;
 }
 
 .housing-details--info {
-  width: 50%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .housing-profil {
-  width: 30%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .housing-details--profil {
-  width: 50%;
-
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,24 +33,50 @@
 .housing-collapse {
   display: flex;
   justify-content: space-between;
-  margin: 2% 0;
+  margin-bottom: 2%;
 }
 
 .housing-collapse--container {
-  width: 45%;
+  width: 48%;
+}
+
+.Housing-card--text {
+  background: #f6f6f6;
+  height: 200px;
+  color: #ff6060;
+  margin: 0;
+  padding: 3% 4% 2% 2%;
+  line-height: 1.4em;
+  font-weight: 300;
+  border-radius: 5px;
+}
+
+.card-li {
+  margin: 5px 0;
 }
 
 /* Responsive Mobile Device */
 @media only screen and (max-width: 600px) {
+  .housing-details {
+    flex-direction: column;
+  }
+
+  .housing-details--info {
+    margin-bottom: 20px;
+  }
+
+  .housing-details--profil {
+    width: 100%;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
   .housing-collapse {
     flex-direction: column;
   }
 
   .housing-collapse--container {
     width: 100%;
-  }
-
-  .collapse--card {
-    margin: 10px 0;
   }
 }

@@ -1,7 +1,6 @@
 /* Responsive Mobile Device */
 .home-banner {
   position: relative;
-  height: 180px;
 }
 
 @media only screen and (max-width: 600px) {
