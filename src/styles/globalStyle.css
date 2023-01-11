@@ -3,6 +3,22 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: calc(12px + 0.390625vw);
+}
+
+h1 {
+  font-size: calc(25px + 0.390625vw);
+}
+
+h2 {
+  font-size: calc(13px + 0.390625vw);
+}
+
+a {
+  font-size: calc(15px + 0.390625vw);
+}
+
 html,
 body {
   margin: 0;
@@ -16,7 +32,8 @@ h1 {
 
 header,
 main {
-  margin: 0 4%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 p {
@@ -34,4 +51,13 @@ a {
 
 .secondary-clr {
   color: white;
+}
+
+/* Responsive Mobile Device */
+@media only screen and (max-width: 600px) {
+  header,
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }

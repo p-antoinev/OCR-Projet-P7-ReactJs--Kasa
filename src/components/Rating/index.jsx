@@ -2,7 +2,7 @@
 import './rating.css'
 //Icon
 import { FaStar } from 'react-icons/fa'
-import { startTransition } from 'react'
+
 
 function Rating({ rating }) {
     const stars = [1, 2, 3, 4, 5]

@@ -11,5 +11,5 @@ function Card({ id, title, cover }) {
 }
 
 
-// export to HousingList
+// Export to HousingList
 export default Card

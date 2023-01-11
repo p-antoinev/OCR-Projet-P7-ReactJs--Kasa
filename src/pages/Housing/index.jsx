@@ -1,6 +1,6 @@
 //Data
 import data from '../../data/Logement.json'
-//style
+//Style & Img
 import './housing.css'
 //React Tools
 import { useEffect } from 'react'
@@ -56,10 +56,10 @@ function Housing() {
                 </div>
                 <div className='housing-collapse--container'>
                     <CollapseCard title={"Équipements"} text={
-                        <ul>{logement.equipments.map((item) =>
-                                <li key={item}>{item}</li>
+                        <div>{logement.equipments.map((item) =>
+                                <p key={item}>{item}</p>
                             )}
-                        </ul>
+                        </div>
                     } />
                 </div>
                 

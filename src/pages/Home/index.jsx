@@ -1,5 +1,6 @@
-//Image
-import mainBanner from '../../assets/img/background_banner_main.png'
+//Style & Img
+import './home.css'
+import mainBanner from '../../assets/img/IMG.svg'
 //Composant
 import Banner from '../../components/Banner'
 import HousingList from '../../components/HousingList'
@@ -13,7 +14,9 @@ function Home() {
   })
   return (
     <main>
-      <Banner src={mainBanner} alt='paysage' text='Chez vous, partout et ailleurs' />
+      <section className='home-banner' >
+        <Banner src={mainBanner} alt='paysage' text='Chez vous, partout et ailleurs' />
+      </section>
       <HousingList/>
     </main>
   );

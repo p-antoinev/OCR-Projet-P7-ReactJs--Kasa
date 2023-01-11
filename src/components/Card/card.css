@@ -3,7 +3,6 @@
   height: 100%;
   position: relative;
   border-radius: 10px;
-  font-size: 100%;
   text-overflow: ellipsis;
 }
 
@@ -14,11 +13,21 @@
 }
 
 .card--title {
-  width: 60%;
-  height: 10%;
+  width: 80%;
   position: absolute;
   bottom: 10%;
-  font-size: 100%;
+  font-weight: 400;
   margin-left: 5%;
+  margin-bottom: 0;
   color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Responsive Mobile Device */
+@media only screen and (max-width: 600px) {
+  .card--title {
+    bottom: 5%;
+    font-size: 20px;
+  }
 }

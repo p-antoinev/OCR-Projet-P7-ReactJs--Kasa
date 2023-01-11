@@ -10,3 +10,15 @@
   width: 85%;
   margin: 20px auto;
 }
+
+/* Responsive Mobile Device */
+@media only screen and (max-width: 600px) {
+  .card-list--container {
+    width: 100%;
+  }
+
+  .card-list {
+    width: 100%;
+    margin: 0;
+  }
+}

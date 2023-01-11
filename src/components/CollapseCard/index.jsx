@@ -1,7 +1,8 @@
-//Style
+//Style & Img
 import './collapseCard.css'
+import arrowImg from '../../assets/img/Vector.svg'
 //Icon
-import { FaAngleUp } from "react-icons/fa";
+
 //Module
 import {useState} from 'react'
 
@@ -11,23 +12,23 @@ function CollapseCard({ title, text }) {
 
     return isOpen ? (
         <div className='collapse--card' >
-                <h1 className='collapse--card--title'>
+                <div className='collapse--card--title'>
                     {title}
                     <button onClick={() => setIsOpen(false)} className='button button--open'>
-                        <FaAngleUp />
+                       <img className='arrow-collapse' src={arrowImg} alt="flêche" />
                     </button>
-                </h1>
-                <p className='collapse--card--text'>{text}</p>
+                </div>
+                <div className='collapse--card--text'>{text}</div>
         </div>
         
     ) : (   
         <div className='collapse--card' >
-                <h1 className='collapse--card--title'>
+                <div className='collapse--card--title'>
                     {title}
                     <button onClick={() => setIsOpen(true)} className='button button--close'>
-                        <FaAngleUp />
+                        <img className='arrow-collapse' src={arrowImg} alt="flêche" />
                     </button>
-                </h1>
+                </div>
         </div>
     )
 }
