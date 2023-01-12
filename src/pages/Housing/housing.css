@@ -55,8 +55,26 @@
   margin: 5px 0;
 }
 
+/* Breakpoint 800px */
+@media only screen and (max-width: 880px) {
+  .housing-details {
+    flex-direction: column;
+  }
+
+  .housing-details--info {
+    margin-bottom: 20px;
+  }
+
+  .housing-details--profil {
+    width: 100%;
+    margin-bottom: 15px;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
 /* Responsive Mobile Device */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 616px) {
   .housing-details {
     flex-direction: column;
   }

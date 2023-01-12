@@ -2,20 +2,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .error--404 {
-  font-size: 12em;
+  font-size: 200px;
   font-weight: 700;
-  margin: 0;
-  margin-top: 5%;
 }
 
 .error--text {
-  font-size: 1.8em;
-  margin: 0;
+  font-size: calc(25px + 0.390625vw);
+  margin-bottom: 10%;
+  text-align: center;
 }
 
 .error--link {
-  margin: 5% 0;
+  font-size: calc(15px + 0.390625vw);
+  margin-bottom: 5%;
+}
+
+/* Responsive Mobile Device */
+@media only screen and (max-width: 600px) {
+  .error--404 {
+    font-size: 100px;
+  }
+
+  .error--text {
+    font-size: 1.4em;
+  }
+
+  .error--link {
+    font-size: 1em;
+    margin-top: 15%;
+  }
 }

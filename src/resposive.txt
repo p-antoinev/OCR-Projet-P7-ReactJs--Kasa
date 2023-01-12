@@ -1,6 +1,0 @@
-/* Responsive Mobile Device */
-@media only screen and (max-width: 600px) {
-    div.example {
-        display: flex;
-    }
-}

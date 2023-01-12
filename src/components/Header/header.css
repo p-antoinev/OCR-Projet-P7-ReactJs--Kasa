@@ -37,6 +37,11 @@ nav {
     height: 45px;
   }
   header > nav {
-    width: 50%;
+    width: 40%;
+  }
+
+  .header--link {
+    margin-left: 10px;
+    font-size: 14px;
   }
 }

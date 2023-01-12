@@ -6,16 +6,19 @@ import './charterList.css'
 import CollapseCard from '../CollapseCard'
 
 function CharterList() {
-    return(
-        <div className='card-list'>
-            {charterList.map((item) => (
-                <div key={item.id} className='card-list--container'>
-                    <CollapseCard className={'about-card--text'} title={item.title} text={item.content} />
-                </div>
-            ))}
+  return (
+    <div className="card-list">
+      {charterList.map((item) => (
+        <div key={item.id} className="card-list--container">
+          <CollapseCard
+            design={'about-card--text'}
+            title={item.title}
+            text={item.content}
+          />
         </div>
-    )
-    
+      ))}
+    </div>
+  )
 }
 
 // export to |-src|-pages|-About
