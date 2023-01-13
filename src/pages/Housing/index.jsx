@@ -75,7 +75,7 @@ function Housing() {
           </section>
         </section>
       ) : (
-        <Navigate to="../pages/Error" />
+        <Navigate to="../pages/error" />
       )}
     </main>
   )

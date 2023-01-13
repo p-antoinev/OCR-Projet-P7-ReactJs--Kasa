@@ -14,7 +14,7 @@ function Header() {
       <img src={logoHeader} alt="logo kasa" />
       <nav>
         <Link to="/" className="header--link ">
-          Acceuil
+          Accueil
         </Link>
         <Link to="/about" className="header--link ">
           À Propos

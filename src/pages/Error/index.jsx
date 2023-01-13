@@ -12,7 +12,7 @@ function Error() {
     <main className="error--main">
       <p className="error--404">404</p>
       <p className="error--text">
-        Oups! La page que vous demandez n'exite pas.
+        Oups! La page que vous demandez n'existe pas.
       </p>
       <Link className="error--link" to="/">
         Retourner sur la page d'accueil
